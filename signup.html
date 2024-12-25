@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Women Safety Analytics</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <!-- <section class="signup-section">
+        <h2>Sign Up</h2>
+        <form id="signupForm">
+            <input type="text" placeholder="Full Name" id="name" required>
+            <input type="email" placeholder="Email" id="email" required>
+            <input type="password" placeholder="Password" id="password" required>
+            <button type="submit">Sign Up</button>
+        </form>
+    </section> -->
+    <video autoplay muted loop id="myVideo">
+        <source src="video1.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+        <h1>Sign Up</h1>
+        <form id="signupForm">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+            </div>
+            <button type="submit" onclick="window.location.href='index.html'">Sign Up</button>
+            <p id="error-message" class="error-message"></p>
+        </form>
+        <center><p>Already have an account? <a href="login.html" >Log in</a></p></center>
+    </div>
+</body>
+<script src="login.js"></script>
+</html>
